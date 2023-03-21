@@ -1,17 +1,16 @@
-import React from 'react'
-import Greet from './components/Welcome';
-const App=()=> {
+import React, { Component } from 'react'
+import Message from './components/Message';
+class App extends Component{
+  render(){
   return (
-    <div className="App">
-      <Greet name="sai" age="20"/>
-      <button>sai</button>
-      <Greet name="chandu" age="21"/>
-      <button>chandu</button>
-      <Greet name="saichandu"age="22" />
-      <button>saichandu</button>
+
+    <div>
+      <Message/>
     </div>
+    
+
   );
-}
+}}
 
 export default App;
 
