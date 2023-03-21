@@ -1,11 +1,10 @@
 import React, { Component } from 'react'
-import Message from './components/Message';
+import Counter from './components/Counter';
 class App extends Component{
   render(){
   return (
-
     <div>
-      <Message/>
+      <Counter/>
     </div>
     
 
