@@ -1,10 +1,13 @@
 import React, { Component } from 'react'
-import Counter from './components/Counter';
+import Classclick from './components/Classclick';
+import Functionclick from './components/Functionclick';
+
 class App extends Component{
   render(){
   return (
     <div>
-      <Counter/>
+      <Functionclick/>
+      <Classclick/>
     </div>
     
 
