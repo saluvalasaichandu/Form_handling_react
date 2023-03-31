@@ -1,13 +1,12 @@
 import React, { Component } from 'react'
-import Classclick from './components/Classclick';
-import Functionclick from './components/Functionclick';
+import Usergreeting from './components/Usergreeting';
+
 
 class App extends Component{
   render(){
   return (
     <div>
-      <Functionclick/>
-      <Classclick/>
+      <Usergreeting></Usergreeting>
     </div>
     
 
