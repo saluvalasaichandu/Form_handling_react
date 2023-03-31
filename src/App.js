@@ -1,12 +1,13 @@
 import React, { Component } from 'react'
-import Usergreeting from './components/Usergreeting';
+
+import NameList from './components/NameList';
 
 
 class App extends Component{
   render(){
   return (
     <div>
-      <Usergreeting></Usergreeting>
+      <NameList></NameList>
     </div>
     
 
