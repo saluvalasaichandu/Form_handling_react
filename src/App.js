@@ -11,7 +11,7 @@ class App extends Component{
     <div>
       {/*<NameList></NameList>*/}
       {/*<Stylesheet></Stylesheet>*/}
-      <Inline></Inline>
+      {/*<Inline></Inline>*/}
     </div>
     
 
