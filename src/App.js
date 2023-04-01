@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 
 import NameList from './components/NameList';
 import Stylesheet from './components/Stylesheet';
+import Inline from './components/Inline';
 
 
 class App extends Component{
@@ -9,7 +10,8 @@ class App extends Component{
   return (
     <div>
       {/*<NameList></NameList>*/}
-      <Stylesheet></Stylesheet>
+      {/*<Stylesheet></Stylesheet>*/}
+      <Inline></Inline>
     </div>
     
 
